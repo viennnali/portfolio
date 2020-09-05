@@ -5,13 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ page.title }} | {{ site.title }}</title>
-	<link rel="preload" as="font" href="/portfolio/assets/fonts/HarmoniaDemo-Regular.woff2" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" href="/portfolio/assets/fonts/HarmoniaDemo-Regular.woff" type="font/woff" crossorigin="anonymous">
-	<link rel="preload" as="font" href="/portfolio/assets/fonts/HarmoniaDemo-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-	<link rel="stylesheet" href="/portfolio/assets/css/fonts.css">
-	<link rel="stylesheet" href="/portfolio/assets/css/reset.css">
-	<link rel="stylesheet" href="/portfolio/assets/css/styles.css">
-	<link rel="stylesheet" href="/portfolio/assets/css/menu.css">
+	<link rel="preload" as="font" href="/assets/fonts/HarmoniaDemo-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/HarmoniaDemo-Regular.woff" type="font/woff" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/assets/fonts/HarmoniaDemo-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+	<link rel="stylesheet" href="/assets/css/fonts.css">
+	<link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<link rel="stylesheet" href="/assets/css/menu.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
@@ -21,14 +21,14 @@
 		<label class="menu-icon" for="menu-btn">
 			<span class="nav-icon"></span>
 		</label>
-		<a class="logo" href="/portfolio/work">
-			<img alt="Vienna Li" src="/portfolio/assets/img/baskerville-logo.png" width="80" height="auto">
+		<a class="logo" href="/work">
+			<img alt="Vienna Li" src="/assets/img/baskerville-logo.png" width="80" height="auto">
 		</a>
 		<ul class="menu">
-			{% assign page = site.data.navigation | sort: "order" %} <!-- not working -->
-			{% for node in page %}
+			{% assign pages = site.data.navigation | sort: "order" %}
+			{% for node in pages %}
 			<li{% if page.url == node.url %} class="active"{% endif %}>
-				<a href="/portfolio{{ node.url }}">{{ node.title }}</a>
+				<a href="{{ node.url }}">{{ node.title }}</a>
 			</li>
 			{% endfor %}
 		</ul>
@@ -70,9 +70,9 @@
 				<p>© Vienna Li 2020</p>
 			</div>
 			<div class="social">
-				<a href="https://www.linkedin.com/"><img alt="linkedin" src="/portfolio/assets/svg/linkedin.svg" width="15" height="auto"></a>
-				<a href="https://www.instagram.com/"><img alt="instagram" src="/portfolio/assets/svg/instagram.svg" width="15" height="auto"></a>
-				<a href="https://www.facebook.com/"><img alt="facebook" src="/portfolio/assets/svg/facebook.svg" width="15" height="auto"></a>
+				<a href="https://www.linkedin.com/"><img alt="linkedin" src="/assets/svg/linkedin.svg" width="15" height="auto"></a>
+				<a href="https://www.instagram.com/"><img alt="instagram" src="/assets/svg/instagram.svg" width="15" height="auto"></a>
+				<a href="https://www.facebook.com/"><img alt="facebook" src="/assets/svg/facebook.svg" width="15" height="auto"></a>
 			</div>
 
 		</div>
