@@ -4,7 +4,7 @@ nav {
 	display: block;
 	position: fixed; /*fixed navigation*/
 	width: 100%; /*full width*/
-	height: 40px;
+	height: 2.8em;
 	background: white; /*nav background*/
 	z-index: 99; /*arrange front*/
 	box-shadow: 0 0.1px 3px rgb(0,0,0,0.2); /*nav shadow*/
@@ -18,8 +18,8 @@ nav a {
   font-size: 1.5em; /*logo font size*/
   position: absolute;
   left: 50%; /*logo horizontally centered*/
-  top: 5px; /*logo vertically centered*/
-  transform: translate(-50%, 5px);
+  top: 6px; /*logo vertically centered*/
+  transform: translate(-50%, 6px);
 }
 
 /*mobile only*/
@@ -133,8 +133,8 @@ nav a {
 @media (min-width: 768px) {
 	.logo {
 		left: calc(50vw - 560px);
-	  top: 5px; /*logo vertically centered*/
-	  transform: translate(10px, 5px);
+	  top: 6px; /*logo vertically centered*/
+	  transform: translate(10px, 6px);
 	}
 
 	.menu-btn, .menu-icon {
@@ -149,12 +149,12 @@ nav a {
 
 	ul.menu li {
 		padding: 0; /*padding between menu list*/
-		top: 50%; /*menu vertically centered*/
-    transform: translate(0, 80%);
+		top: 1em; /*menu vertically centered*/
+    transform: translate(0, 1em);
 	}
 
 	ul.menu li a {
-		padding: 8px 1.3em; /*padding around menu text*/
+		padding: 0.7em 1.3em; /*padding around menu text*/
 		font-size: 0.9em; /*menu text size*/
 	}
 
