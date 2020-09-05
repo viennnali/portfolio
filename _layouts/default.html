@@ -21,13 +21,13 @@
 		<label class="menu-icon" for="menu-btn">
 			<span class="nav-icon"></span>
 		</label>
-		<a class="logo" href="/work">
+		<a class="logo" href="/index">
 			<img alt="Vienna Li" src="/assets/img/baskerville-logo.png" width="80" height="auto">
 		</a>
 		<ul class="menu">
 			{% assign pages = site.data.navigation | sort: "order" %}
 			{% for node in pages %}
-			<li{% if page.url == node.url %} class="active"{% endif %}>
+			<li{% if page.url == node.url %} class="active"{% endif %}> <!--inactive-->
 				<a href="{{ node.url }}">{{ node.title }}</a>
 			</li>
 			{% endfor %}

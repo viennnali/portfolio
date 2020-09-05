@@ -2,7 +2,7 @@ name: Vienna Li
 title: Vienna Li
 email: viennnali@gmail.com
 description: Hi! Vienna here. I am a graphic + digital designer passionate about building delightful experiences.
-baseurl: "/portfolio"
+# baseurl: "/portfolio"
 url: "viennali.com"
 twitter_username: viennnali
 github_username: viennnali

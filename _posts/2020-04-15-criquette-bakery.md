@@ -1,6 +1,7 @@
 ---
-title: My Third Post
+title: Criquette Bakery
 layout: post
+permalink: /criquette-bakery/
 tags: [ ux design ]
 featured-image: rect-pink.png
 featured-image-alt: Pink Rectangle

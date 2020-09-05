@@ -1,6 +1,7 @@
 ---
-title: My Second Post
+title: Moonchild
 layout: post
+permalink: /moonchild/
 tags: [ web design ]
 featured-image: rect-pink.png
 featured-image-alt: Pink Rectangle

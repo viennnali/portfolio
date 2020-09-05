@@ -1,7 +1,7 @@
 ---
-title: My First Post
+title: Sparkling House
 layout: post
-permalink: /my-first-post/
+permalink: /sparkling-house/
 tags: [ branding, web design ]
 featured-image: rect-pink.png
 featured-image-alt: Pink Rectangle
