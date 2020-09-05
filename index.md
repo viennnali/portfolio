@@ -1,8 +1,6 @@
 ---
 title: Work
 layout: home
-permalink: /work/
-order: 1
 ---
 
 # {{ page.title }}

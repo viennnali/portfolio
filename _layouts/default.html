@@ -25,8 +25,8 @@
 			<img alt="Vienna Li" src="/portfolio/assets/img/baskerville-logo.png" width="80" height="auto">
 		</a>
 		<ul class="menu">
-			{% assign pages = site.pages | sort: "order" %} <!-- not working -->
-			{% for node in site.pages %}
+			{% assign page = site.data.navigation | sort: "order" %} <!-- not working -->
+			{% for node in page %}
 			<li{% if page.url == node.url %} class="active"{% endif %}>
 				<a href="/portfolio{{ node.url }}">{{ node.title }}</a>
 			</li>

@@ -1,11 +1,11 @@
-# - title: Work
-#   order: 1
-#   url: {{ "/work/" | relative_url }}
-#
-# - title: About
-#   order: 2
-#   url: {{ "/about/" | relative_url }}
-#
-# - title: Resume
-#   order: 3
-#   url: {{ "/resume/" | relative_url }}
+- title: Work
+  order: 1
+  url: /work/
+
+- title: About
+  order: 2
+  url: /about/
+
+- title: Resume
+  order: 3
+  url: /resume/
