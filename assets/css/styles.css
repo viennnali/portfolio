@@ -166,9 +166,10 @@ main p.tag.page {
   }
 }
 
-.page .description {
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+p.page.description {
+  text-align: center;
+  max-width: 600px;
+  padding-bottom: 0;
 }
 
 .case .description h2,
