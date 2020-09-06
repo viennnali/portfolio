@@ -48,6 +48,11 @@ h2 {
   padding-bottom: 1em;
 }
 
+h1, h2, h3, p {
+  width: 95%;
+  margin: auto;
+}
+
 ul.menu li {
   text-transform: uppercase;
 }
@@ -180,6 +185,35 @@ main p.tag.page {
 .case .description p {
   font-size: 1em;
   line-height: 1.4em;
+}
+
+.case .description h1,
+.case .description h2,
+.case .description h3,
+.case .description p {
+  width: 100%;
+}
+
+/********* pagination **********/
+
+.pagination {
+  font-size: 1.1em;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.pagination a {
+  color: var(--highlight);
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.pagination .next {
+  text-align: right;
+  float: right;
 }
 
 /*********** footer ***********/
