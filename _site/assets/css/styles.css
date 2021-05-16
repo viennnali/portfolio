@@ -154,6 +154,11 @@ main p.tag.page {
   margin: auto;
 }
 
+/* hide view project button on mobile */
+.view-project {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .case {
     display: flex;
@@ -171,6 +176,11 @@ main p.tag.page {
     float: left;
     width: 50%;
     padding-right: 30px;
+  }
+
+  /* show view project button on desktop */
+  .view-project {
+    display: block;
   }
 }
 
