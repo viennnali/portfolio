@@ -83,7 +83,7 @@ img.page {
   display: block; /* for center */
   padding: 30px 0;
   width: 100%;
-  max-width: calc(var(--main-max-width)/2);
+  max-width: calc(var(--main-max-width)/1.75);
   margin: auto;
 }
 
@@ -175,6 +175,7 @@ main p.tag.page {
   img.left {
     float: left;
     width: 50%;
+    /* margin-left: -13vw; */
     padding-right: 30px;
   }
 

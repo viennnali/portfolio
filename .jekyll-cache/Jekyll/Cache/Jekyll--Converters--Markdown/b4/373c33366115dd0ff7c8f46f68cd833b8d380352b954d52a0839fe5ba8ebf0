@@ -1,66 +1,9 @@
-<!doctype html>
-<html>
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Criquette Bakery | Vienna Li</title>
-	<link rel="preload" as="font" href="/assets/fonts/HarmoniaDemo-Regular.woff2" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" href="/assets/fonts/HarmoniaDemo-Regular.woff" type="font/woff" crossorigin="anonymous">
-	<link rel="preload" as="font" href="/assets/fonts/HarmoniaDemo-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-	<link rel="stylesheet" href="/assets/css/fonts.css">
-	<link rel="stylesheet" href="/assets/css/reset.css">
-	<link rel="stylesheet" href="/assets/css/styles.css">
-	<link rel="stylesheet" href="/assets/css/menu.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
-<body>
-	<nav>
-		<input class="menu-btn" type="checkbox" id="menu-btn" />
-		<label class="menu-icon" for="menu-btn">
-			<span class="nav-icon"></span>
-		</label>
-		<a class="logo" href="/index">
-			<img alt="Vienna Li" src="/assets/img/baskerville-logo.png" width="80" height="auto">
-		</a>
-		<ul class="menu">
-			
-			
-			<li> <!--inactive-->
-				<a href="/">Work</a>
-			</li>
-			
-			<li> <!--inactive-->
-				<a href="/about/">About</a>
-			</li>
-			
-			<li> <!--inactive-->
-				<a href="/resume/">Resume</a>
-			</li>
-			
-		</ul>
-
-	</nav>
-<main>
-	<a href="/criquette-bakery/"><h1 class="page">Criquette Bakery</h1></a>
-
-<p class="tag page">
-	
-	graphic design
-	
-</p>
-
-<p class="page description">To create packaging that keeps macarons more shelf-stable, while reducing the amount of packaging material.</p>
-
-<img class="page" src="/assets/img/criquette/cr-card.svg" alt="Criquette Card" />
-
-	<h2 id="needs">Needs</h2>
+I"�<h2 id="needs">Needs</h2>
 <p>Generally, macarons are exclusively available in luxurious bakeries that may only be available in large cities. It may be difficult for many people to purchase them if they live in small towns and cannot travel to these bakeries, unless they are purchasing frozen macarons at grocery stores or from online shops. There is a need for packaging that compliments shelf-stable macarons, making it easy to distribute in neighborhood markets or convenience stores, and the minimal amount of packaging material is more affordable and environmentally friendly than those used at high-end bakeries.</p>
 
 <p><br /></p>
 
-<p><img class="left" src="/assets/img/criquette/cr-menu.svg" /></p>
+<p><img class="left" src="/assets/img/criquette-menu.png" /></p>
 
 <h2 id="project-objective">Project Objective</h2>
 <p>The brand identity of Criquette Bakery places emphasis on modernity, convenience, and simplicity, but fully retains the feeling of elegance that most macaron brands feature. The goal of Criquette Bakery is to create packaging that keeps macarons more shelf-stable, while reducing the amount of packaging material. It aims for more efficient use of space within the packaging, allowing easier distribution and reducing costs of shipping by 20%. The packaging is also environmentally friendly, with a recyclable outer package and compostable individual wrappers.</p>
@@ -72,14 +15,12 @@
 
 <p><br /></p>
 
-<p><img src="/assets/img/criquette/cr-typography.svg" /></p>
+<p><img src="/assets/img/criquette-typography.svg" /></p>
 
 <h2 id="background">Background</h2>
 <p>Most of the famous macaron brands focus their identities on high-class and heritage, and many currently have their own bakeries and online shops. However, they are seldomly distributed in other places, such as grocery and convenience stores. Also, many of these brands use boxes outside and plastic inside the boxes to protect the shape of macarons during distribution. These brands use an excessive amount of material for packaging, in the name of “luxury” and “extravagance.” Not only does this type of packaging generate too much waste, but also takes up a considerable amount of extra space, making it more costly to deliver.</p>
 
 <p><br /></p>
-
-<p><img src="/assets/img/criquette/cr-colors.svg" /></p>
 
 <h2 id="message">Message</h2>
 <p>Criquette Bakery’s macarons are healthy and full of protein, and made with a limited list of natural ingredients. Its refined and elegant packaging, but affordability and wide accessibility, makes it a wonderful item for gifting during holidays or special events for busy women.</p>
@@ -88,57 +29,4 @@
 
 <h2 id="audience">Audience</h2>
 <p>Criquette Bakery’s macarons have a target audience of young women ages 18-25, and their income ranges from $20,000 to $50,000 a year. This includes women who are just entering university or have just graduated and started working, and are generally busy with school and work. They are attracted to decadent packaging and luxury items, but wish it could be more affordable and accessible to purchase. Therefore, Criquette Bakery macarons will be priced at a lower point than at high-end bakeries, and distributed at neighborhood markets and convenience stores.</p>
-
-
-<div class="pagination">
-	<!-- reversed -->
-  
-  
-    <a class="next" href="/2017/02/08/asucd-pantry.html">ASUCD Pantry &rarr;</a>
-  
-</div>
-
-</main>
-
-	<footer>
-		<div class="text">
-			<div class="category">
-				<h6><a href="#">Work</a></h6>
-				<ul>
-					<li><a href="#">Remindful</a></li>
-					<li><a href="#">Paper</a></li>
-					<li><a href="#">Expedia</a></li>
-				</ul>
-			</div>
-			<div class="category">
-				<h6><a href="#">Blog</a></h6>
-				<ul>
-					<li><a href="#">Beautiful Era</a></li>
-					<li><a href="#">Spotify</a></li>
-					<li><a href="#">Converse</a></li>
-				</ul>
-			</div>
-			<div class="category">
-				<h6><a href="#">About</a></h6>
-				<ul>
-					<li><a href="#">Remindful</a></li>
-					<li><a href="#">Paper</a></li>
-					<li><a href="#">Expedia</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="info">
-			<div class="copyright">
-				<p>© Vienna Li 2020</p>
-			</div>
-			<div class="social">
-				<a href="https://www.linkedin.com/"><img alt="linkedin" src="/assets/svg/linkedin.svg" width="15" height="auto"></a>
-				<a href="https://www.instagram.com/"><img alt="instagram" src="/assets/svg/instagram.svg" width="15" height="auto"></a>
-				<a href="https://www.facebook.com/"><img alt="facebook" src="/assets/svg/facebook.svg" width="15" height="auto"></a>
-			</div>
-
-		</div>
-	</footer>
-</body>
-
-</html>
+:ET

@@ -3,7 +3,7 @@ title: Criquette Bakery
 layout: post
 permalink: /criquette-bakery/
 tags: [ graphic design ]
-featured-image: criquette-card.png
+featured-image: criquette/cr-card.svg
 featured-image-alt: Criquette Card
 description: To create packaging that keeps macarons more shelf-stable, while reducing the amount of packaging material.
 ---
@@ -13,7 +13,7 @@ Generally, macarons are exclusively available in luxurious bakeries that may onl
 
 <br>
 
-<img class="left" src="/assets/img/criquette-menu.png">
+<img class="left" src="/assets/img/criquette/cr-menu.svg">
 
 ## Project Objective
 The brand identity of Criquette Bakery places emphasis on modernity, convenience, and simplicity, but fully retains the feeling of elegance that most macaron brands feature. The goal of Criquette Bakery is to create packaging that keeps macarons more shelf-stable, while reducing the amount of packaging material. It aims for more efficient use of space within the packaging, allowing easier distribution and reducing costs of shipping by 20%. The packaging is also environmentally friendly, with a recyclable outer package and compostable individual wrappers.
@@ -25,10 +25,14 @@ The outer package has a half-cylinder lid with a radius of 1 inch, and attaches 
 
 <br>
 
+<img src="/assets/img/criquette/cr-typography.svg">
+
 ## Background
 Most of the famous macaron brands focus their identities on high-class and heritage, and many currently have their own bakeries and online shops. However, they are seldomly distributed in other places, such as grocery and convenience stores. Also, many of these brands use boxes outside and plastic inside the boxes to protect the shape of macarons during distribution. These brands use an excessive amount of material for packaging, in the name of “luxury” and “extravagance.” Not only does this type of packaging generate too much waste, but also takes up a considerable amount of extra space, making it more costly to deliver.
 
 <br>
+
+<img src="/assets/img/criquette/cr-colors.svg">
 
 ## Message
 Criquette Bakery’s macarons are healthy and full of protein, and made with a limited list of natural ingredients. Its refined and elegant packaging, but affordability and wide accessibility, makes it a wonderful item for gifting during holidays or special events for busy women.
