@@ -2,7 +2,7 @@
 title: Criquette Bakery
 layout: post
 permalink: /criquette-bakery/
-tags: [ graphic design ]
+tags: [ branding, graphic design ]
 featured-image: criquette/cr-card.svg
 featured-image-alt: Criquette Card
 description: To create packaging that keeps macarons more shelf-stable, while reducing the amount of packaging material.
@@ -13,7 +13,7 @@ Generally, macarons are exclusively available in luxurious bakeries that may onl
 
 <br>
 
-<img class="left" src="/assets/img/criquette/cr-menu.svg">
+<img class="left" src="/assets/img/criquette/cr-menu.png">
 
 ## Project Objective
 The brand identity of Criquette Bakery places emphasis on modernity, convenience, and simplicity, but fully retains the feeling of elegance that most macaron brands feature. The goal of Criquette Bakery is to create packaging that keeps macarons more shelf-stable, while reducing the amount of packaging material. It aims for more efficient use of space within the packaging, allowing easier distribution and reducing costs of shipping by 20%. The packaging is also environmentally friendly, with a recyclable outer package and compostable individual wrappers.
@@ -32,7 +32,7 @@ Most of the famous macaron brands focus their identities on high-class and herit
 
 <br>
 
-<img src="/assets/img/criquette/cr-colors.svg">
+<img class="right" src="/assets/img/criquette/cr-colors.svg">
 
 ## Message
 Criquette Bakery’s macarons are healthy and full of protein, and made with a limited list of natural ingredients. Its refined and elegant packaging, but affordability and wide accessibility, makes it a wonderful item for gifting during holidays or special events for busy women.

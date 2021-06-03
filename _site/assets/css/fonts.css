@@ -12,17 +12,24 @@
  * URL: https://www.myfonts.com/fonts/mti/harmonia-sans/Demo/
  * Copyright: Copyright &amp;#x00A9; 2016 Monotype Imaging Inc. All rights reserved.
  *
- *
- *
  * © 2020 MyFonts Inc
 */
 
 @font-face {
-    font-family: 'Harmonia Demo';
-    src: url('../fonts/HarmoniaDemo-Regular.woff2') format('woff2'),
-        url('../fonts/HarmoniaDemo-Regular.woff') format('woff'),
-        url('../fonts/HarmoniaDemo-Regular.ttf') format(truetype);
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Harmonia Demo';
+  src: url('../fonts/HarmoniaDemo-Regular.woff2') format('woff2'),
+       url('../fonts/HarmoniaDemo-Regular.woff') format('woff'),
+       url('../fonts/HarmoniaDemo-Regular.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url('../fonts/Gilroy-ExtraBold/font.otf') format('opentype')
+       url('../fonts/Gilroy-ExtraBold/font.woff2') format('woff2'),
+       url('../fonts/Gilroy-ExtraBold/font.woff') format('woff');
+       font-weight: 600;
+       font-style: normal;
+       font-display: swap;
 }
