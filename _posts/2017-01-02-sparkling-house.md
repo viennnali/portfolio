@@ -5,6 +5,7 @@ permalink: /sparkling-house/
 tags: [ branding, web design ]
 featured-image: rect-pink.svg
 featured-image-alt: Pink Rectangle
+pattern: rect-pink.png
 description: To conduct a human-centered study on parents’ needs during quarantine. A task-management app for parents to distribute work more evenly.
 ---
 
