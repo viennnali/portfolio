@@ -94,13 +94,13 @@ img.page {
 
 img.page.pattern {
   max-width: 100vw;
-  padding: 45px 0 0 0;
-  height: 200px;
-  object-fit: cover;
+  padding: 0;
+  height: 220px;
+  object-fit: none;
 }
 
 main img {
-  width: 100%;
+  width: 100vw;
   margin: auto;
   max-width: 800px;
 }
@@ -200,6 +200,11 @@ main p.tag.page {
   /* show view project button on desktop */
   .view-project {
     display: block;
+  }
+
+  img.page.pattern {
+    height: 280px;
+    object-fit: cover;
   }
 }
 
