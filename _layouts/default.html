@@ -37,7 +37,12 @@
 
 	</nav>
 
-	<img class="page pattern" src="/assets/img/{{ page.pattern }}" alt="{{ page.pattern-alt }}" />
+	<!-- pattern -->
+	{% if page.url == "/" %} <!-- check if homepage -->
+		<img class="page pattern" src="/assets/img/rect-pink.png" alt="rect-pink" />
+	{% else %}
+		<img class="page pattern" src="/assets/img/{{ page.pattern }}" alt="{{ page.pattern-alt }}" />
+	{% endif %}
 
 <main>
 	{{ content }}

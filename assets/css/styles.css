@@ -100,7 +100,7 @@ img.page.pattern {
 }
 
 main img {
-  width: 100vw;
+  width: 100%;
   margin: auto;
   max-width: 800px;
 }
@@ -187,14 +187,13 @@ main p.tag.page {
   img.left {
     float: left;
     width: 50%;
-    /* margin-left: -13vw; */
-    padding-right: 30px;
+    padding: 30px 30px 30px 0;
   }
 
   img.right {
     float: right;
     width: 50%;
-    padding-left: 30px;
+    padding: 30px 0 30px 30px;
   }
 
   /* show view project button on desktop */
@@ -246,7 +245,7 @@ p.page.pattern {
 .pagination {
   font-size: 1.1em;
   display: block;
-  width: auto;
+  width: 100%;
   overflow: hidden;
 }
 
