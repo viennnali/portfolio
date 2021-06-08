@@ -39,25 +39,6 @@ h1, h1 a {
   color: black;
 }
 
-h2 {
-  max-width: var(--content-max-width);
-  margin: auto;
-  font-size: 1.6em;
-  font-weight: normal;
-  letter-spacing: -0.01em;
-  padding-bottom: 0.5em;
-}
-
-h1, h2, h3 {
-  font-family: 'Harmonia Demo', sans-serif;
-  font-weight: 600;
-}
-
-h1, h2, h3, p {
-  width: 95%;
-  margin: auto;
-}
-
 ul.menu li {
   text-transform: uppercase;
 }
@@ -68,16 +49,39 @@ ul.menu li {
 main {
   display: block;
   margin: auto; /*center all content*/
-  width: 95%;
+  width: 93vw;
   max-width: var(--main-max-width);
   padding: 40px 0;
+  margin: auto;
 }
 
-p {
-  max-width: var(--content-max-width);
+h2, h3, h4, h5 {
   margin: auto;
+  max-width: var(--content-max-width);
+  font-weight: normal;
+  letter-spacing: -0.01em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p, main ul {
+  margin: auto;
+  max-width: var(--content-max-width);
   padding-bottom: 1em;
   line-height: 1.7em;
+}
+
+main ul {
+  list-style-type: disc;
+  padding-left: 3vw;
 }
 
 h2.post {
@@ -312,8 +316,8 @@ footer .text .category {
 footer .text h6, footer .text h6 a {
   font-size: 1.1em;
   padding-bottom: 1em;
-  color: white;
-  display: none;
+  color: #ECDDDD;
+  display: ;
 }
 
 footer .text .category ul li,

@@ -1,4 +1,4 @@
-- title: Work
+- title: Projects
   order: 1
   url: /
 
@@ -6,6 +6,6 @@
   order: 2
   url: /about/
 
-- title: Resume
+- title: Experience
   order: 3
-  url: /resume/
+  url: /experience/
