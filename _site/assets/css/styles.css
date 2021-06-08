@@ -49,7 +49,7 @@ ul.menu li {
 main {
   display: block;
   margin: auto; /*center all content*/
-  width: 93vw;
+  width: 90vw;
   max-width: var(--main-max-width);
   padding: 40px 0;
   margin: auto;
@@ -79,9 +79,11 @@ p, main ul {
   line-height: 1.7em;
 }
 
-main ul {
-  list-style-type: disc;
-  padding-left: 3vw;
+main ul > li:before {
+    display: inline-block;
+    content: "•";
+    width: 1em;
+    margin-left: -1em;
 }
 
 h2.post {
@@ -249,6 +251,8 @@ p.page.pattern {
 .pagination {
   font-size: 1.1em;
   display: block;
+  max-width: var(--content-max-width);
+  margin: auto;
   width: 100%;
   overflow: hidden;
 }
@@ -273,12 +277,19 @@ p.page.pattern {
 /*********** footer ***********/
 
 footer {
+  display: block;
   position: relative;
   min-height: 200px;
   background: black;
   color: white;
-  padding: 45px 30px;
   z-index: 0;
+}
+
+footer .content {
+  margin: auto;
+  padding: 5em 2em;
+  width: 90vw;
+  max-width: var(--content-max-width);
 }
 
 footer .info {
