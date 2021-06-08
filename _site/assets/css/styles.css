@@ -287,7 +287,7 @@ footer {
 
 footer .content {
   margin: auto;
-  padding: 5em 2em;
+  padding: 5em 0;
   width: 90vw;
   max-width: var(--content-max-width);
 }
