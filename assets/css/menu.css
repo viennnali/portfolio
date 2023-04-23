@@ -4,10 +4,10 @@ nav {
 	display: block;
 	position: fixed; /*fixed navigation*/
 	width: 100%; /*full width*/
-	height: 2.8em;
+	height: 3em;
 	background: white; /*nav background*/
 	z-index: 99; /*arrange front*/
-	box-shadow: 0 0.1px 3px rgb(0,0,0,0.2); /*nav shadow*/
+	/*box-shadow: 0 0.1px 3px rgb(0,0,0,0.2); /*nav shadow*/
 }
 
 nav a {
