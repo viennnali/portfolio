@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: default
 search: exclude
 order: 0
@@ -25,4 +25,4 @@ order: 0
     </url>
     {% endfor %}
 
-</urlset> -->
+</urlset>

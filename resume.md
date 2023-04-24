@@ -1,11 +1,11 @@
 ---
-title: Experience
+title: Resume
 layout: default
-permalink: /experience/
+permalink: /resume/
 pattern: rect-pink.png
 ---
 
-## EXPERIENCE
+## Resume
 
 ### Graphic Design Intern • ASUCD Pantry
 #### Sep 2017 - June 2018 • Davis, California
