@@ -7,7 +7,7 @@ featured-image: criquette/cr-card.svg
 featured-image-alt: Criquette Card
 pattern: criquette/cr-pattern.svg
 pattern-alt: Criquette Pattern
-description: a pristine visual toolkit for a chic, earthy bakery
+description: A pristine visual toolkit for a chic, earthy bakery
 ---
 
 This was an branding project from my graphic design class, which was to create a brand surrounding an edible insect — I was assigned the Ruspolia nitidula, more commonly known as bush crickets. I called my imaginary brand Criquette Bakery and decided to make it specialize in macarons.

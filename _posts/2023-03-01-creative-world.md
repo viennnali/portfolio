@@ -1,10 +1,10 @@
 ---
-title: Sparkling House
+title: Creative World
 layout: post
-permalink: /sparkling-house/
+permalink: /creative-world/
 tags: [ branding, web design ]
-featured-image: sparkling-house/sh-cover.jpg
-featured-image-alt: Pink Rectangle
+featured-image: creative-world/cw-cover.jpg
+featured-image-alt: Creative World
 pattern: rect-pink.png
 description: To conduct a human-centered study on parents’ needs during quarantine. A task-management app for parents to distribute work more evenly.
 ---
