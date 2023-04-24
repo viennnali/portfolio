@@ -16,10 +16,11 @@
 */
 
 @font-face {
-  font-family: 'Harmonia Demo';
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif;
+  /*font-family: 'Harmonia Demo';
   src: url('../fonts/HarmoniaDemo-Regular.woff2') format('woff2'),
        url('../fonts/HarmoniaDemo-Regular.woff') format('woff'),
-       url('../fonts/HarmoniaDemo-Regular.ttf') format(truetype);
+       url('../fonts/HarmoniaDemo-Regular.ttf') format(truetype);*/
   font-weight: normal;
   font-style: normal;
   font-display: swap;
