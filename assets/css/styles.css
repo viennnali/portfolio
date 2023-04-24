@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: 'Harmonia Demo', 'Inter', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif;
+  /*font-family: 'Harmonia Demo', 'Inter', 'Helvetica Neue', sans-serif;*/
   font-weight: 400;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
